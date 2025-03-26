@@ -12,7 +12,7 @@ public class MyHooks {
     public void setup() {
         System.out.println("This is setup method");
         driverManager = new DriverManager();
-        driver =driverManager.launchBrowser("Firefox");
+        driver =driverManager.launchBrowser("Chrome");
     }
 
     @After
